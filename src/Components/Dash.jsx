@@ -3,7 +3,7 @@ import { Layout, Menu } from 'antd';
 import { HomeOutlined, InfoCircleOutlined, BarChartOutlined, AppstoreOutlined, SettingOutlined, DashboardOutlined } from '@ant-design/icons';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
-const { Header, Content, Sider } = Layout;
+const { Header, Content, Sider  } = Layout;
 
 function Home() {
   return <div>Home</div>;
@@ -70,6 +70,7 @@ export default function Dash() {
                 <Route path="/dashboard" element={<Dashboard />} />
               </Routes>
             </Content>
+            
           </Layout>
         </Layout>
       </Layout>
