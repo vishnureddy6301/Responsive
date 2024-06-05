@@ -28,8 +28,10 @@ const Contact = () => {
                         <a href="#" className="text-gray-800 hover:text-purple-600">Projects</a>
                         <a href="#" className="text-gray-800 hover:text-purple-600">Careers</a>
                     </nav>
-                    <a href="#" className="text-white bg-[#1C1258] hover:bg-gray-700 px-4 py-2 rounded-lg">Contact Us</a>
-                    <Button className="xs:hidden" type="primary" icon={<MenuOutlined />} onClick={showDrawer} />
+                    <a href="#" className=" hidden sm:inline-block text-white bg-[#1C1258] hover:bg-gray-700 px-4 py-2 rounded-lg">Contact Us</a>
+                    <div className='flex-none lg:hidden'>
+                    <Button className=" sm:hidden " type="primary" icon={<MenuOutlined />} onClick={showDrawer} />
+                    </div>
                 </div>
             </header>
 
@@ -39,6 +41,7 @@ const Contact = () => {
                 <a href="#" className="block text-gray-800 hover:text-purple-600 mb-2">Services</a>
                 <a href="#" className="block text-gray-800 hover:text-purple-600 mb-2">Projects</a>
                 <a href="#" className="block text-gray-800 hover:text-purple-600 mb-2">Careers</a>
+                <a href="#" className="block text-gray-800 hover:text-purple-600 mb-2">ContactUS</a>
                
             </Drawer>
 
